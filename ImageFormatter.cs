@@ -37,9 +37,9 @@ namespace ImageToTitleScreen
             var logo_start = new Bitmap(logo_path);
             var backdrop_start = new Bitmap(backdrop_path);
 
-            // resize images to 400 by 256 and add an extra 112 pixels to the right sides of each
-            logo_start = ResizeImage(logo_start, 400, 256);
-            backdrop_start = ResizeImage(backdrop_start, 400, 256);
+            // resize images to 420 by 256 and add an extra 92 pixels to the right sides of each
+            logo_start = ResizeImage(logo_start, 420, 256);
+            backdrop_start = ResizeImage(backdrop_start, 420, 256);
             Bitmap logo = new Bitmap(512, 256);
             Bitmap backdrop = new Bitmap(512, 256);
             Graphics g_logo = Graphics.FromImage(logo);
@@ -47,7 +47,7 @@ namespace ImageToTitleScreen
             Graphics g_backdrop = Graphics.FromImage(backdrop);
             g_backdrop.Clear(Color.Transparent);
             // draw in the pixels (very slow, btu will redo later)
-            for (int x = 0; x < 400; x++)
+            for (int x = 0; x < 420; x++)
             {
                 for (int y = 0; y < 256; y++)
                 {

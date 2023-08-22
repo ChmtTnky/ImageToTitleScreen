@@ -7,7 +7,7 @@
             if (args.Length == 0)
             {
                 Console.WriteLine(
-                    "Formats either a 16 by 9 image to use as the title screen background, or a pair of 25 by 16 (yes, really) images to use as the title screen logo\n" +
+                    "Formats either a 16 by 9 image to use as the title screen background, or a pair of 420 by 256 (yes, really) images to use as the title screen logo\n" +
                     "The input images don't need to have the same dimensions as the originals, but it works best if they are the same\n" +
                     "The final output will either be 12 PNGs (background) or 1 PIL file (logo) that can be applied with the KingdomFileReplacer\n" +
                     "If a single file path is provided, Background mode is assumed\n" +
