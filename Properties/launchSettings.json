@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ImageToTitleScreen": {
+      "commandName": "Project",
+      "commandLineArgs": ".\\logo"
+    }
+  }
+}

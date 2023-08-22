@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wQ1jVJHSNp1Q/hzB43qS6uidJcfwcPDlHCFCqFofLE0fNVU6Dj9/aRcF/dCqOzr3J9HbAuzoPaa+dAGBsgN43g==",
+  "dgSpecHash": "QHvFU4FbBpXFvRg64cN9EDjVxRqlgb1v8aq/lweEayE4Fa3o9/EkdlKNAi0Fhu5DT6lHENExMxAcGVFhA11x4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\jajo7\\source\\repos\\ImageToTitleScreen\\ImageToTitleScreen.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jajo7\\.nuget\\packages\\magick.net-q16-anycpu\\13.2.0\\magick.net-q16-anycpu.13.2.0.nupkg.sha512",
+    "C:\\Users\\jajo7\\.nuget\\packages\\magick.net.core\\13.2.0\\magick.net.core.13.2.0.nupkg.sha512",
     "C:\\Users\\jajo7\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "C:\\Users\\jajo7\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
   ],
